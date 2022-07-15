@@ -6,5 +6,5 @@ interface CoroutineDispatcherProvider {
     val main: CoroutineDispatcher
     val io: CoroutineDispatcher
     val default: CoroutineDispatcher
-    val unconfirmed: CoroutineDispatcher
+    val unconfined: CoroutineDispatcher
 }
